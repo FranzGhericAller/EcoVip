@@ -1,0 +1,537 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Ecotourism Hubs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        #typedText {
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+    
+        .eco-tourism-big{
+            font-size: 3rem; /* Keep original size */
+  font-weight: bold;
+        }
+        .ecotourism-heading{
+            color: white !important;
+        }
+        .ecotourism-support-text {
+  color: white !important;
+}
+
+ 
+
+      .hover-grow:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+      }
+      .gradient-background {
+        background: linear-gradient(to right, #2d3748, #38b2ac);
+      }
+      .card-shadow:hover {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      }
+      .card-shadow {
+        transition: box-shadow 0.3s ease-in-out;
+      }
+      .custom-border {
+        border-bottom: 2px solid #38b2ac;
+      }
+    </style>
+  </head>
+  <body class="font-roboto bg-gray-100">
+    
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <div class="flex items-center space-x-6">
+          <img
+            alt="Erasmus+ logo"
+            class="h-12"
+            height="50"
+            src="img/erasmus.png"
+            width="100"
+          />
+          <img
+            alt="ECOViP logo"
+            class="h-12"
+            height="50"
+            src="img/Ecovip.png"
+            width="100"
+          />
+          <img
+            alt="HEI logo"
+            class="h-12"
+            height="50"
+            src="img/university.png"
+            width="100"
+          />
+        </div>
+        <nav class="space-x-6 text-lg">
+          <a
+            class="text-gray-700 hover:text-green-600 font-semibold transition"
+            href="#home"
+          >
+            Home
+          </a>
+          <a
+            class="text-gray-700 hover:text-green-600 font-semibold transition"
+            href="#about"
+          >
+            About Us
+          </a>
+          <a
+            class="text-gray-700 hover:text-green-600 font-semibold transition"
+            href="#news"
+          >
+            News
+          </a>
+          <a
+            class="text-gray-700 hover:text-green-600 font-semibold transition"
+            href="#activities"
+          >
+            Our Activities
+          </a>
+          <a
+            class="text-gray-700 hover:text-green-600 font-semibold transition"
+            href="#resources"
+          >
+            Resources
+          </a>
+          <a
+            class="text-gray-700 hover:text-green-600 font-semibold transition"
+            href="#cooperation"
+          >
+            Cooperation
+          </a>
+          <a
+            class="text-gray-700 hover:text-green-600 font-semibold transition"
+            href="#support"
+          >
+            Support Us
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section
+      class="relative bg-green-50 py-20 gradient-background text-white"
+      id="home"
+    >
+      <img
+        alt="Background image of a lush green forest"
+        class="absolute inset-0 w-full h-full object-cover opacity-60"
+        height="1080"
+        src="img/nature2.jpg"
+      />
+      <div class="relative container mx-auto text-center">
+        <h1 id="typedText"></h1>
+
+        <h1 class="eco-tourism-big">Welcome to Ecotourism Hubs</h1>
+        <h2 id="typedText"></h2>  <!-- Add this where you want the animated text -->
+
+        <p class="ecotourism-support-text"></p>
+          Our Ecotourism Hub was created with the support of the Erasmus+ project
+          ECOViP.
+        </p>
+        <p class="ecotourism-heading">
+          We aim to foster sustainable tourism practices and support
+          entrepreneurial activities within the tourism industry.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-20" id="about">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-green-700 text-center custom-border mb-8">
+          About Us
+        </h2>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="p-6 rounded-lg shadow-lg bg-white hover:shadow-xl transition-all">
+            <h3 class="text-3xl font-semibold text-gray-800">History</h3>
+            <p class="mt-4 text-gray-700 text-lg">
+              Our Ecotourism Hub was created with support from the Erasmus+
+              project ECOViP. We have been dedicated to promoting sustainable
+              tourism practices and supporting entrepreneurial activities within
+              the tourism industry.
+            </p>
+          </div>
+          <div class="p-6 rounded-lg shadow-lg bg-white hover:shadow-xl transition-all">
+            <h3 class="text-3xl font-semibold text-gray-800">Vision and Mission</h3>
+            <p class="mt-4 text-gray-700 text-lg">
+              Our mission is to foster sustainable tourism practices, support
+              local communities, and promote environmental conservation. We
+              envision a world where tourism contributes positively to the
+              environment and society.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="bg-green-50 py-20" id="news">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-green-700 text-center custom-border mb-8">
+          News and Events
+        </h2>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
+            <img
+              alt="Image of a recent event related to ecotourism"
+              class="w-full h-64 object-cover rounded-t-lg"
+              height="200"
+              src="https://storage.googleapis.com/a1aa/image/zVlP9Yo9Iy92c4st96xoaGGJCdsGiC0udC-yiQ6pgB4.jpg"
+              width="300"
+            />
+            <h3 class="mt-4 text-2xl font-semibold text-gray-800">
+              Event Title 1
+            </h3>
+            <p class="mt-2 text-gray-600">
+              Brief description of the event. This event focuses on sustainable
+              tourism practices and community engagement.
+            </p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
+            <img
+              alt="Image of a recent workshop on ecotourism"
+              class="w-full h-64 object-cover rounded-t-lg"
+              height="200"
+              src="https://storage.googleapis.com/a1aa/image/qQjtd4w6FyUmZhNQBykG2XU0bFfqrrYzW5MXcGT3DOk.jpg"
+              width="300"
+            />
+            <h3 class="mt-4 text-2xl font-semibold text-gray-800">
+              Event Title 2
+            </h3>
+            <p class="mt-2 text-gray-600">
+              Brief description of the event. This workshop aims to educate
+              participants on the importance of ecotourism.
+            </p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
+            <img
+              alt="Image of a community engagement activity"
+              class="w-full h-64 object-cover rounded-t-lg"
+              height="200"
+              src="https://storage.googleapis.com/a1aa/image/2HshDGN78RRL8Yzx0BJ8fJobqJnA_k53v2swiQmy7co.jpg"
+              width="300"
+            />
+            <h3 class="mt-4 text-2xl font-semibold text-gray-800">
+              Event Title 3
+            </h3>
+            <p class="mt-2 text-gray-600">
+              Brief description of the event. This activity involves local
+              communities in conservation efforts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div>
+      </div
+      <!-- Our Activities Section -->
+      <section class="py-20 bg-gray-50" id="activities">
+        <div class="container mx-auto">
+          <h2 class="text-5xl font-bold text-center text-green-700 mb-12">
+            Our Activities
+          </h2>
+          <p class="text-xl text-center text-gray-600 mb-12">
+            Explore the initiatives we offer to promote ecotourism and sustainability.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all overflow-hidden">
+              <img
+                class="w-full h-72 object-cover"
+                src="https://storage.googleapis.com/a1aa/image/ZH6nTK9a1T2AX4hUjhgC1aXzT88B4dOxddW-V9oyixQ.jpg"
+                alt="Ecotourism Activity 1"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-semibold text-gray-800">Activity 1</h3>
+                <p class="mt-3 text-gray-600">Description of ecotourism activity 1.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all overflow-hidden">
+              <img
+                class="w-full h-72 object-cover"
+                src="https://storage.googleapis.com/a1aa/image/Wuwb_3DlRY32qQf9aWjURuJW5lR5XzgsNmLzxwXch7Y.jpg"
+                alt="Ecotourism Activity 2"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-semibold text-gray-800">Activity 2</h3>
+                <p class="mt-3 text-gray-600">Description of ecotourism activity 2.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all overflow-hidden">
+              <img
+                class="w-full h-72 object-cover"
+                src="https://storage.googleapis.com/a1aa/image/Uf39J2jxiP5Tn7o28fdA0H7GfD3s7qRJmuZfZ1NE67A.jpg"
+                alt="Ecotourism Activity 3"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-semibold text-gray-800">Activity 3</h3>
+                <p class="mt-3 text-gray-600">Description of ecotourism activity 3.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Resources Section -->
+      <section class="py-20 bg-green-50" id="resources">
+        <div class="container mx-auto">
+          <h2 class="text-5xl font-bold text-center text-green-700 mb-12">
+            Resources
+          </h2>
+          <p class="text-xl text-center text-gray-600 mb-12">
+            Access resources to support your journey in sustainable tourism.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all p-6">
+              <h3 class="text-2xl font-semibold text-gray-800">Resource 1</h3>
+              <p class="mt-3 text-gray-600">Details about resource 1 and its benefits for ecotourism.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all p-6">
+              <h3 class="text-2xl font-semibold text-gray-800">Resource 2</h3>
+              <p class="mt-3 text-gray-600">Information on how resource 2 supports ecotourism goals.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all p-6">
+              <h3 class="text-2xl font-semibold text-gray-800">Resource 3</h3>
+              <p class="mt-3 text-gray-600">How resource 3 contributes to sustainable tourism.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Cooperation Section -->
+      <section class="py-20 bg-gray-50" id="cooperation">
+        <div class="container mx-auto">
+          <h2 class="text-5xl font-bold text-center text-green-700 mb-12">
+            Cooperation
+          </h2>
+          <p class="text-xl text-center text-gray-600 mb-12">
+            Learn about the organizations we collaborate with to drive ecotourism efforts.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all p-6">
+              <h3 class="text-2xl font-semibold text-gray-800">Cooperation 1</h3>
+              <p class="mt-3 text-gray-600">How Cooperation 1 strengthens our ecotourism initiatives.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all p-6">
+                <h3 class="text-2xl font-semibold text-gray-800">Cooperation 2</h3>
+                <p class="mt-3 text-gray-600">Details on Cooperation 2 and its contributions to ecotourism.</p>
+              </div>
+              <div class="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all p-6">
+                <h3 class="text-2xl font-semibold text-gray-800">Cooperation 3</h3>
+                <p class="mt-3 text-gray-600">Explanation of how Cooperation 3 aligns with our goals for sustainability.</p>
+              </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Support Us Section -->
+      <section class="py-20 bg-green-50" id="support">
+        <div class="container mx-auto">
+          <h2 class="text-5xl font-bold text-center text-green-700 mb-12">
+            Support Us
+          </h2>
+          <p class="text-xl text-center text-gray-600 mb-12">
+            Learn how you can contribute to our mission and help us further our impact.
+          </p>
+          <div class="text-center">
+            <a
+              href="contact.html"
+              class="bg-green-700 text-white px-8 py-3 rounded-full font-semibold transition hover:bg-green-600"
+            >
+              Get Involved
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto text-center">
+          <p>&copy; 2025 Ecotourism Hubs. All rights reserved.</p>
+          <div class="mt-4">
+            <a href="https://www.facebook.com" class="text-white mx-4" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.twitter.com" class="text-white mx-4" target="_blank">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://www.instagram.com" class="text-white mx-4" target="_blank">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+      <script>
+        
+        // Optional JS for additional functionality
+        document.addEventListener('DOMContentLoaded', function () {
+          // Add smooth scroll for anchor links
+          const links = document.querySelectorAll('a[href^="#"]');
+          links.forEach(link => {
+            link.addEventListener('click', function (e) {
+              e.preventDefault();
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth',
+              });
+            });
+          });
+        });
+        const links = document.querySelectorAll('nav a');
+  links.forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      window.scrollTo({
+        top: target.offsetTop - 80, // Adjust based on header height
+        behavior: 'smooth',
+      });
+    });
+  });
+
+  // Toggle Mobile Navigation
+  const navToggle = document.createElement('button');
+  navToggle.innerHTML = '<i class="fas fa-bars"></i>';
+  navToggle.classList.add('md:hidden', 'text-gray-700', 'text-2xl');
+  const header = document.querySelector('header');
+  header.insertBefore(navToggle, header.firstChild);
+
+  const navMenu = document.querySelector('nav');
+  navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('hidden');
+    navToggle.classList.toggle('open');
+  });
+
+  // Event Hover Effect
+  const eventCards = document.querySelectorAll('.bg-white');
+  eventCards.forEach(card => {
+    card.addEventListener('mouseover', () => {
+      card.classList.add('scale-105', 'transition-transform', 'duration-300');
+    });
+    card.addEventListener('mouseout', () => {
+      card.classList.remove('scale-105', 'transition-transform', 'duration-300');
+    });
+  });
+
+  // Modal Popup for Event Details
+  const eventImages = document.querySelectorAll('.bg-white');
+  const modal = document.createElement('div');
+  modal.classList.add('fixed', 'inset-0', 'bg-black', 'bg-opacity-50', 'hidden', 'items-center', 'justify-center', 'z-50');
+  const modalContent = document.createElement('div');
+  modalContent.classList.add('bg-white', 'p-6', 'rounded-lg', 'max-w-2xl', 'mx-auto');
+  const closeBtn = document.createElement('button');
+  closeBtn.innerHTML = '&times;';
+  closeBtn.classList.add('text-2xl', 'font-bold', 'absolute', 'top-4', 'right-4');
+  modalContent.appendChild(closeBtn);
+  modal.appendChild(modalContent);
+  document.body.appendChild(modal);
+
+  eventImages.forEach(card => {
+    card.addEventListener('click', () => {
+      const title = card.querySelector('h3').innerText;
+      const description = card.querySelector('p').innerText;
+      const imageSrc = card.querySelector('img').src;
+
+      modalContent.innerHTML = `
+        <button class="text-2xl font-bold absolute top-4 right-4">&times;</button>
+        <div class="text-center">
+          <img src="${imageSrc}" alt="${title}" class="w-full h-72 object-cover mb-4 rounded-lg" />
+          <h3 class="text-3xl font-semibold text-gray-800 mb-2">${title}</h3>
+          <p class="text-lg text-gray-600">${description}</p>
+        </div>
+      `;
+      modal.classList.remove('hidden');
+      const closeModal = modal.querySelector('button');
+      closeModal.addEventListener('click', () => {
+        modal.classList.add('hidden');
+      });
+    });
+  });
+  const galleryImages = document.querySelectorAll('.gallery img');
+  const lightbox = document.createElement('div');
+  lightbox.classList.add('fixed', 'inset-0', 'bg-black', 'bg-opacity-80', 'hidden', 'items-center', 'justify-center', 'z-50');
+  const lightboxContent = document.createElement('div');
+  lightboxContent.classList.add('relative', 'max-w-4xl', 'mx-auto', 'p-6');
+  const lightboxCloseBtn = document.createElement('button');
+  lightboxCloseBtn.innerHTML = '&times;';
+  lightboxCloseBtn.classList.add('absolute', 'top-2', 'right-2', 'text-3xl', 'font-bold', 'text-white');
+  lightboxContent.appendChild(lightboxCloseBtn);
+  lightbox.appendChild(lightboxContent);
+  document.body.appendChild(lightbox);
+
+  galleryImages.forEach(image => {
+    image.addEventListener('click', () => {
+      const fullImageSrc = image.getAttribute('data-fullsize');
+      lightboxContent.innerHTML = `
+        <button class="absolute top-2 right-2 text-3xl font-bold text-white">&times;</button>
+        <img src="${fullImageSrc}" alt="Gallery Image" class="max-w-full h-auto" />
+      `;
+      lightbox.classList.remove('hidden');
+      lightboxCloseBtn.addEventListener('click', () => {
+        lightbox.classList.add('hidden');
+      });
+    });
+  });
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('header');
+    if (window.scrollY > 100) {
+      header.classList.add('sticky', 'top-0', 'shadow-lg');
+    } else {
+      header.classList.remove('sticky', 'top-0', 'shadow-lg');
+    }
+  });
+  
+  const newsletterForm = document.querySelector('#newsletter-form');
+  const emailInput = newsletterForm.querySelector('input[type="email"]');
+  newsletterForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const email = emailInput.value.trim();
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+    if (!emailPattern.test(email)) {
+      alert('Please enter a valid email address.');
+      emailInput.focus();
+    } else {
+      alert('Thank you for subscribing!');
+    }
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+            const text = "Welcome to the Ecotourism Hubs";
+            const typedText = document.getElementById("typedText");
+            let i = 0;
+
+            function typeWriter() {
+                if (i < text.length) {
+                    typedText.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, 100);
+                }
+            }
+
+            typeWriter();  // Initiates the typing effect when the page is loaded
+        });
+
+
+  
+      </script>
+  </body>
+  
+</html>
